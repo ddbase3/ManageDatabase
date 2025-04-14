@@ -1,0 +1,8 @@
+[
+	{
+		"scope": "database",
+		"name": "Database",
+		"order": 20,
+		"active": 1
+	}
+]
