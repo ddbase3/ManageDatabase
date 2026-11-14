@@ -1,0 +1,12 @@
+{
+	"manifestVersion": 1,
+	"name": "ManageDatabase",
+	"namespace": "Base3\\ManageDatabase",
+	"version": "0.0.0",
+	"description": "ManageDatabase adds database administration controls. It extends Base3Manager with its database-specific views. Storage remains the responsibility of existing backends.",
+	"license": "GPL-3.0",
+	"dependencies": {
+		"Base3Manager": ">=0.0.0",
+		"CoreFoundation": ">=4.10.0"
+	}
+}

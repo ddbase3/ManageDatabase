@@ -1,8 +1,23 @@
 <?php declare(strict_types=1);
 
-namespace ManageDatabase\ContentControl;
+/***********************************************************************
+ * This file is part of ManageDatabase for BASE3 Framework.
+ *
+ * ManageDatabase adds database administration controls.
+ * It extends Base3Manager with its database-specific views.
+ * Storage remains the responsibility of existing backends.
+ *
+ * Developed by Daniel Dahme
+ * Licensed under GPL-3.0
+ * https://www.gnu.org/licenses/gpl-3.0.en.html
+ *
+ * https://base3.de
+ ***********************************************************************/
 
-use Base3Manager\ContentControl\AbstractContentControl;
+
+namespace Base3\ManageDatabase\ContentControl;
+
+use Base3\Base3Manager\ContentControl\AbstractContentControl;
 
 class DatabaseContentControl extends AbstractContentControl {
 

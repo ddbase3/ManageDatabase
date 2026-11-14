@@ -1,10 +1,24 @@
-<?php
+<?php declare(strict_types=1);
 
-namespace ManageDatabase\Test;
+/***********************************************************************
+ * This file is part of ManageDatabase for BASE3 Framework.
+ *
+ * ManageDatabase adds database administration controls.
+ * It extends Base3Manager with its database-specific views.
+ * Storage remains the responsibility of existing backends.
+ *
+ * Developed by Daniel Dahme
+ * Licensed under GPL-3.0
+ * https://www.gnu.org/licenses/gpl-3.0.en.html
+ *
+ * https://base3.de
+ ***********************************************************************/
+
+namespace Base3\ManageDatabase\Test;
 
 use PHPUnit\Framework\TestCase;
-use ManageDatabase\ManageDatabasePlugin;
-use Base3\Api\IContainer;
+use Base3\ManageDatabase\ManageDatabasePlugin;
+use Base3\CoreFoundation\Api\IContainer;
 
 class ManageDatabasePluginTest extends TestCase
 {
