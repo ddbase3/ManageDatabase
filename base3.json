@@ -2,11 +2,19 @@
 	"manifestVersion": 1,
 	"name": "ManageDatabase",
 	"namespace": "Base3\\ManageDatabase",
-	"version": "0.0.0",
+	"version": "5.0.0",
 	"description": "ManageDatabase adds database administration controls. It extends Base3Manager with its database-specific views. Storage remains the responsibility of existing backends.",
-	"license": "GPL-3.0",
+	"license": "GPL-3.0-or-later",
+	"maintainers": [
+		{
+			"name": "Daniel Dahme",
+			"url": "https://www.base3.de",
+			"email": "info@base3.de"
+		}
+	],
+	"repository": "https://github.com/ddbase3/ManageDatabase",
 	"dependencies": {
-		"Base3Manager": ">=0.0.0",
-		"CoreFoundation": ">=4.10.0"
+		"Base3Manager": ">=5.0.0",
+		"CoreFoundation": ">=5.0.0"
 	}
 }
